@@ -1,8 +1,8 @@
-age = input("What is your current age? ")
+age = int(input("What is your current age? "))
 
-new_age = int(age)
+#new_age = int(age)
 total_age = 90
-age_left = total_age - new_age
+age_left = total_age - age
 
 days_left = age_left * 365
 
